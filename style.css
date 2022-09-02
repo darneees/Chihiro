@@ -65,7 +65,8 @@ body {
     background: #628E75;
     margin-right: 20px;
     border: 3px solid #f9f9f9;
-    border-radius: 100px;
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
   }
 .Ag:hover {
     color: #1A4855;
@@ -78,7 +79,8 @@ body {
     width: 150px;
     color: #1A4855;
     border: 3px solid #1A4855;
-    border-radius: 100px;
+    -webkit-transform: skew(-15deg);
+    transform: skew(-15deg);
 
   }
 .At:hover {
@@ -87,8 +89,8 @@ body {
 }
 .cntBox img {
     max-height: 440px;
+    animation: bounce 5s infinite;
   }
-
 @media ( max-width: 1200px) {
     header , main {
         position: relative;
@@ -106,6 +108,7 @@ body {
     .cntBox img {
         height: 390px;
         margin-top: -25px;
+        animation: bounce 5s infinite;
     }
     .container {
         position: relative;
@@ -125,3 +128,12 @@ body {
         padding-left: 28px;
     }
 }
+@keyframes bounce {
+    0% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-30px);
+    }
+    
+  }
