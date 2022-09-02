@@ -1,0 +1,127 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+/* HEADER */
+.container {
+    height: 98px;
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+  }
+.logo img {
+    width: 130px;
+  }
+.icon img {
+    width: 22px;
+    margin-left: 11px;
+  }
+/* MAIN */
+body {
+      background: linear-gradient( 35deg, #628E74, #1A4855);
+      background-attachment: fixed;
+  }
+.content {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+  }
+.cntTxt {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+  }
+.cntTxt .subtitulo {
+    color: #f9f9f9;
+    text-transform: uppercase;
+  }
+.cntTxt h1 {
+    font-size: 30px;
+    text-transform: uppercase;
+    font-weight: 900;
+    letter-spacing: 2px;
+    color: #f9f9f9;
+  }
+.cntTxt p {
+    margin-top: 15px;
+    color: #f9f9f9;
+    text-indent: 5px;
+  }
+#btn {
+    text-align: center;
+    align-items: center;
+    margin-top: 20px;
+    display: flex;
+  }
+.Ag {
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+    color: #f9f9f9;
+    background: #628E75;
+    margin-right: 20px;
+    border: 3px solid #f9f9f9;
+    border-radius: 100px;
+  }
+.Ag:hover {
+    color: #1A4855;
+    background: #f9f9f9;
+  }
+.At {
+    padding: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    width: 150px;
+    color: #1A4855;
+    border: 3px solid #1A4855;
+    border-radius: 100px;
+
+  }
+.At:hover {
+    color: #628E75;
+    background: #1A4855;
+}
+.cntBox img {
+    max-height: 440px;
+  }
+
+@media ( max-width: 1200px) {
+    header , main {
+        position: relative;
+        width: calc(100%);
+    }
+}
+@media ( max-width: 992px) {
+    .content {
+        align-items: center;
+        display: flex;
+        flex-direction: column-reverse;
+        height: 100%;
+        padding: 20px;
+    }
+    .cntBox img {
+        height: 390px;
+        margin-top: -25px;
+    }
+    .container {
+        position: relative;
+        display: flex;
+        justify-content: center;
+    }
+    .icon {
+        display: none;
+    }
+    .logo img{
+        width: 125px;
+    }
+    .cntTxt {
+        text-align: center;
+    }
+    #btn {
+        padding-left: 28px;
+    }
+}
