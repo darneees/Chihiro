@@ -6,7 +6,7 @@
 
 <h2 align="center">Desafios Codelândia</h2>
 
-<p align="center">Desafios de front-end com projetos práticos da comunidade Codelândia no <a href="https://discord.gg/wNCWTVuxyz" target="_blank">Discord</a>, idealizada pelo <a href="https://www.iuricode.com/" target="_blank">Iuri Silva</a>.</p>
+<p align="center">Desafios de front-end com projetos práticos da comunidade Codelândia no <a href="https://discord.gg/wNCWTVuxyz">Discord</a>, idealizada pelo <a href="https://www.iuricode.com/">Iuri Silva</a>.</p>
 </br>
 
 ## ✔️ Tecnologias utilizadas
