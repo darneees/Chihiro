@@ -1,4 +1,4 @@
-![ IMAGEM ILUSTRATIVA ](https://user-images.githubusercontent.com/79709843/188175471-33e54a23-9dbd-4740-b9dc-9e4273d85bb6.png)
+![ IMAGEM ILUSTRATIVA ](https://user-images.githubusercontent.com/79709843/188192080-37bf5422-ba02-4935-936c-7bc4c912450b.png)
 
 <h1>
   Chihiro :ghost:
